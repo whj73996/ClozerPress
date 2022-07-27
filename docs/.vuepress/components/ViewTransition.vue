@@ -3,8 +3,8 @@
     <div class="iframe-box">
     </div>
     <p>
-      <router-link to="/foo" replace> vue </router-link>
-      <router-link to="/bar" replace> react </router-link>
+      <router-link to="/pages/views/BarBar.html"> vue </router-link>
+      <router-link to="/pages/views/FooFoo.html"> react </router-link>
     </p>
     <div class="container">
       <router-view></router-view>
@@ -26,10 +26,10 @@ export default {
 }
 </script>
 
-<!-- <style lang="scss" scoped>
+<style lang="scss" scoped>
 .page-container {
   height: 100%;
   text-align: center;
 }
 
-</style> -->
+</style>

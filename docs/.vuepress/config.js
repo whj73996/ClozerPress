@@ -18,6 +18,10 @@ module.exports = {
                   { text: '文章', link: '/pages/folder1/test1.md' },  
                   //点击标签会跳转至link的markdown文件生成的页面
                   { text: '琐碎', link: '/pages/folder2/test4.md' },
+                  { text: '琐碎', link: '/pages/views/test.md' , children:[
+                    {link: '/pages/views/BarBar.html',},
+                    {link: '/pages/views/FooFoo.html',}
+                  ]},
               ]
           },
           { text: '功能演示', link: '/pages/folder1/test3.md' },

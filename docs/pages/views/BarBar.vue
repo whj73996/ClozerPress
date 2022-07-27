@@ -1,7 +1,7 @@
 <template>
   <transition appear leave-active-class="roll-out-blurred-right" enter-active-class="roll-in-blurred-right">
     <div key="Bar" class="container">
-      <img class="logo-icon" src="../public/assets/react-logo.png" alt="">
+      <img class="logo-icon" src="../assets/react-logo.png" alt="">
     </div>
   </transition>
 </template>
